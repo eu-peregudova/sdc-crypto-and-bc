@@ -1,31 +1,38 @@
-1. Correct symmetric key
+# wallet
 
-To find the correct key I used following shell command:
-`echo [KEY] | xxd -r -p | sha256`
-and compared the result with expected hash.
+Account address: 0xE8C1EF444B0b035C146Be4739E9c5B5C27Ffb65D
 
-Correct key:
-`95ce2d1a16fde76dee842c90f126aab9`
+# chains
 
-2. Decrypted message
+https://scan.test2.btcs.network/address/0xe8c1ef444b0b035c146be4739e9c5b5c27ffb65d
 
-![alt text](image.png)
+# transactions
 
-Text:
-C	o	n	s	e	n	s	u	s		k	e	e	p	s	
-t	h	e		l	e	d	g	e	r		h	o	n	e	s
-t	.	.	.	.	.	.	.	.	.	.	.	.	.	.	.
+Facing an inability to use faucet due to technical issues on Core side, I chose new testnet - Avalanche Fuji.
 
-3. Asymmetric public key.
+transaction:
+https://testnet.snowscan.xyz/tx/0xba912ae8e7702b0810170c589b4482fd8a248315e2d5b62a6b9e00c2ddfee927
 
------BEGIN PUBLIC KEY-----
-MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCSRbOACfd9KLWiKB3+w00ib9Ms
-WV5W5uJe6ZTxQ3AwKGhFawfuDg+vr5pSFCe2yyiNjJQVqnYn5cJe1rB0zWME7N7B
-7SkidTBFhZaqyIEspEFAg/whqTnxVxvij9IqnLcky6rMtxmPi3Kma4Irz1Gvy1Z7
-3/2O/dKmaEk1ZDxIwwIDAQAB
------END PUBLIC KEY-----
+# gas
+
+https://snowtrace.io/insight/leaderboard/gas-tracker 
+
+https://testnet.snowtrace.io/
+
+# nonce
+
+with modified nonce (0.1 AVAX): https://testnet.snowscan.xyz/tx/0x24250cf53621cdb2660a8aa81b4ef8f849a46cd389ace01874f227ab559ada45
+
+![](image-2.png)
+
+with unmodified nonce (0.3 AVAX): https://testnet.snowscan.xyz/tx/0xeea1e43666ed197ca02e66ba6fdc5bb0736db2d857a447fad1ab593afa41c92d
+
+![](image-1.png)
+
+activity logs
+
+![](image.png)
 
 
-4. Digital signature.
 
-C0dVWDsw5YuydhLQPNVkIjLdJJsmVOiE258liAVuIlfZrURGzGNw/da/+I6js77PcaJRFSgycIwnUK4ofuZiZs+0sxOBPru9UKlc5/qQgHUbUconGp5hDYOhVguHuohdyL22pByr15EKq3bK/Tmy9ehyTaGET9qIL+BOZp8acp0=
+
