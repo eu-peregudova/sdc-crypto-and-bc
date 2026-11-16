@@ -1,7 +1,18 @@
-# install hardhat
+# the Solidity contract (MyToken.sol)
 
-https://testnet.snowscan.xyz/tx/0x8f600644a903d8ceb7c4348a5b28f3430e408d5bd00eea8c1827f75eb980eb85
+contracts/MyToken.sol
 
-# smart contract
+# deployment script (deploy.js) or Ignition module
 
-https://testnet.snowscan.xyz/tx/0x66e27f493ec6a15b2c56b365089ebb3a8711361b6000f30b97fbbef7b13bfb1c
+ignition/modules/MyToken.ts
+
+# test cases for minting, transferring, and balance checks
+
+test/MyToken.ts
+
+# provide the link to your deployed contract and the Blockchain explorer screenshot
+
+link: https://testnet.snowtrace.io/address/0x953AF855cf16615252DA341c8a0502471a98516D
+
+screenshot:
+![alt text](image.png)
